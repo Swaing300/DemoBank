@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section1{
+    height: 30vh;
+    background-color: white;
+    box-shadow: 1px 1px 5px 0px black;
+}
+.section2{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    
+    background: url("https://th.bing.com/th/id/R.7c01e7307bb018c3d59710a461bd03f3?rik=VJCQmWfZ76eszA&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f95%2f78%2fTbVp2t.jpg&ehk=iPGVBxiStbpoJOQNyk95eS102izkrVIA63UXPCigmAc%3d&risl=&pid=ImgRaw&r=0") no-repeat;
+    background-size: cover;
+}
+.section2 .part{
+    width: 60%;
+    
+}
+.container1{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+.container1 .item{
+    height: 10vw;
+    width: 15vw;
+    border-radius: 10px 0px;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.411);
+    font-family: optima;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1 .item:hover{
+    cursor: pointer;
+    opacity: 0.25;
+    background-color: black;
+}
+.container1 .item a{
+    text-decoration: none;
+    color: rgb(24, 37, 37);
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 60px 30px;
+}
+.container1 .item a:hover{
+    color: azure;
+    transition: transform 1s ease;
+    transform: scale(1.2);
+}
+@media screen and (max-width: 780px) {
+    .section2{
+        height: 50vh;
+    }
+    .section2 .part{
+        width: 100%;
+    }
+    .section2 .container1{
+        height: 15vh;
+    }
+    .container1 .item{
+        height: 15vw;
+        width: 20vw;
+    }
+    .container1 .item a{
+        font-size: 10px;
+    }
+}
+

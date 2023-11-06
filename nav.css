@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+.navbar {
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    padding: 0 15px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navclick {
+    height: 30px;
+    width: 30px;
+}
+
+
+.navbar-nav {
+    text-align: center;
+    width: 100%;
+}
+
+.nav-link {
+    padding: 0 10px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: blue;
+}
+
+.navbar-list {
+    font-size: large;
+    display: none;
+    width: 100%;
+    background-color: wheat;
+    text-align: center;
+}
+
+.navbar-nav {
+    margin-left: 50ch;
+}
+
+.nav-link {
+    font-size: large;
+    margin-left: 10px;
+    color: rgb(35, 49, 141);
+}
+
+.nav-link:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 974px) {
+    .navbar-nav {
+        position: relative;
+        margin-left: -1vw;
+        background-color: rgba(189, 184, 178, 0.252);
+        box-shadow: 1px 1px 5px rgb(222, 219, 216);
+        padding-right: 1vw;
+    }
+    .nav-link{
+        color: rgb(102, 106, 120);
+        /* background-color: rgb(132, 123, 112); */
+        font-weight: 500;
+    } 
+    .nav-link:hover{
+        color: rgb(255, 249, 237);
+        background-color: rgb(131, 93, 43);
+        text-decoration: none;
+        border-radius: 15px;
+    }
+}
+
+
+.logout {
+    position: relative;
+    display: inline-block;
+    margin-right: 5.5vw;
+    
+}
+
+.user-image-dropdown {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    float: left; /* Position the image to the left */
+    margin-right: 10px;
+}
+
+.user-image{
+    height: 30px;
+    width: 30px;
+}
+.user-image:hover{
+    cursor: pointer;
+}
+
+.dropdown-content {
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    padding: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 1.5vh;
+    margin-left: -6vw;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 1px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.user-section {
+    display: flex;
+    align-items: center;
+}
+
+.setting-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 1px;
+    height: 4vh;
+}
+.setting-section:hover {
+    background-color: #f1f1f1;
+}
+
+.settings-image {
+    width: 20px;
+    height: 20px;
+}
+@media screen and (max-width: 780px) {
+    .logout {
+        margin-right: 2vw;
+    }
+
+    .dropdown-content {
+        min-width: 70vw;
+        padding: 20px;
+        right: 0;
+        font-size: small;
+    }
+}
+

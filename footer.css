@@ -1,0 +1,148 @@
+@charset "UTF-8";
+footer{
+    background-color: rgb(77, 73, 73);
+    color: aliceblue;
+    overflow-x: hidden;
+}
+footer .first_footer{
+	height: 5vh;
+	box-shadow: 1px 0px 5px white;
+}
+footer .first_footer .end{
+	width: 15vw;
+	height: 100%;
+	float: right;
+	margin-right: 20vw;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.first_footer .end a{
+	color: white;
+	margin-right: 5px;
+	font-size: large;
+    size: 10px;
+}
+.first_footer .end a:hover{
+	color: #7c1a1a;
+}
+
+footer .second_footer{
+	/* height: 30vh; */
+    box-shadow: 5px 0.5px 5px rgb(41, 35, 26);
+}
+footer .third_footer{
+	height:5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .third_footer .mid{
+    /* font-weight:bolder; */
+    font-family: sofia;
+    font-size: large;
+    text-shadow:1px 1px 1px rgb(46, 32, 32)
+}
+footer .third_footer .mid span{
+    color: rgba(250, 182, 22, 0.762);
+}
+
+
+
+
+
+
+.second_footer {
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.second_footer h4 {
+    color: #e67e22;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.second_footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.second_footer ul li {
+    margin-bottom: 10px;
+}
+
+.second_footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.second_footer ul li a:hover {
+    color: #e67e22;
+}
+
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1 1 30%;
+    max-width: 30%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    footer .third_footer .mid{
+        font-size: 3vw;
+    }
+
+    
+.second_footer {
+    padding: 5vw 0;
+}
+
+.second_footer h4 {
+    color: #e67e22;
+    font-size: 5vw;
+    margin-bottom: 3vh;
+}
+
+.second_footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.second_footer ul li {
+    margin-bottom: 1vh;
+}
+
+.second_footer ul li a{
+    font-size: 3vw;
+}
+
+.second_footer ul li a:hover {
+    color: #e67e22;
+}
+
+.second_footer p{
+    font-size: 3vw;
+}
+
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1 1 30%;
+    max-width: 30%;
+}
+
+}
